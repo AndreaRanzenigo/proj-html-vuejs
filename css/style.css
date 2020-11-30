@@ -1,0 +1,62 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Utility*/
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* App */
+/* Header */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Header menu */
+.main-header ul.main-menu {
+    display: flex;
+    list-style: none;
+}
+
+.main-header ul.main-menu li {
+    margin: 5px;
+    padding: 7px;
+}
+
+.main-header ul.main-menu li a {
+    text-decoration: none;
+    color: #3f3a64;
+}
+
+/* Header logo */
+.main-header .logo img {
+    width: 180px;
+}
+
+/* Header Search */
+.main-header .search i {
+    margin: 0 10px;
+}
+
+.main-header .search i:last-child {
+    color: #20ad9c;
+}
+
+.main-header input {
+    border: none;
+    color: #959594;
+    font-size: 14px;
+    padding: 5px;
+}
