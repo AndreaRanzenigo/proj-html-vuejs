@@ -197,6 +197,59 @@
                 </section>
             </div>
         </main>
+
+        <!-- Footer -->
+        <footer class="footer mt-100">
+            <div class="container">
+                <div class="main-footer">
+                    <div class="left-footer w-50">
+                        <h5>Address</h5>
+                        <span>
+                            382 NE 191st #87394 Miami, FL 33179-3899 <br>
+                            +1(305) 547-9909 (9am - 5pm EST, Monday - Friday) <br>
+                            <a href="">support@maxcoach.com</a>
+                        </span>
+                        <div class="social">
+                            <i class="fab fa-facebook-square"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                    </div>
+                    <div class="right-footer w-50">
+                        <div class="explore">
+                            <h5>Explore</h5>
+                            <div class="first-explore">
+                                <ul v-for="li in footerExploreFirst">
+                                    <li>
+                                        <a href="#">{{ li }}</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="last-explore">
+                                <ul v-for="li in footerExploreSecond">
+                                    <li>
+                                        <a href="#">{{ li }}</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="information">
+                            <h5>Information</h5>
+                            <ul v-for="li in information">
+                                <li>
+                                    <a href="#">{{ li }}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <span class="copyright">&copy; 2020 Maxcoach. All Rights Reserved</span>
+            </div>
+        </footer>
     </div>
     
 

@@ -365,12 +365,14 @@ h3 {
     font-size: 15px;
     color: #8c89a2;
     padding-right: 30px;
+    cursor: pointer;
 }
 
 .online .offers .offer .info i {
     font-size: 14px;
     padding-right: 5px;
     color: #8c89a2;
+    cursor: pointer;
 }
 
 .online .circle {
@@ -388,6 +390,7 @@ h3 {
     color: #8c89a2;
     font-size: 8px;
     padding: 0 8px;
+    cursor: pointer;
 }
 
 .online .circle p {
@@ -402,4 +405,97 @@ h3 {
     color: #000;
     font-size: 18px;
     font-weight: 700;
+}
+
+/* Footer */
+.footer {
+    height: 400px;
+    background-color: #171621;
+}
+
+.footer span.copyright {
+    color: #ababaa;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer .main-footer {
+    display: flex;
+    padding-top: 50px;
+}
+
+.footer .main-footer h5 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+/* Left footer */
+.footer .main-footer .left-footer span {
+    color: #ababaa;
+    font-size: 14px;
+    line-height: 2.5;
+}
+
+.footer .main-footer .left-footer span a {
+    color: #ababaa;
+    text-decoration: none;
+}
+
+.footer .main-footer .left-footer .social {
+    padding-top: 30px;
+}
+
+.footer .main-footer .left-footer .social i {
+    color: #ababaa;
+    font-size: 22px;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: color, 1s;
+}
+
+.footer .main-footer .left-footer .social i:hover {
+    color: #fff;
+}
+
+/* Right footer */
+.footer .main-footer .right-footer {
+    display: flex;
+}
+
+.footer .main-footer .right-footer .explore {
+    display: flex;
+}
+
+.footer .main-footer .right-footer .explore .first-explore {
+    position: relative;
+    top: 40px;
+    left: -60px;
+}
+
+.footer .main-footer .right-footer .explore .last-explore {
+    position: relative;
+    top: 40px;
+    left: 0;
+}
+
+.footer .main-footer .right-footer ul {
+    list-style: none;
+}
+
+.footer .main-footer .right-footer ul li a {
+    color: #ababaa;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 2.5;
+}
+
+.footer .main-footer ul li a:hover {
+    color: #fff;
+}
+
+.footer .main-footer .right-footer .information {
+    margin-left: 50px;
 }
