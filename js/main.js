@@ -9,6 +9,6 @@ const app = new Vue({
             'Features',
             'Blog',
             'Shop'
-        ]
-    }
+        ],
+    },
 }); 

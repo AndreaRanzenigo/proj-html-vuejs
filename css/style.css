@@ -9,6 +9,22 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h4 {
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: #797d80;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 25px;
+}
+
 /* Utility*/
 .container-menu {
     width: 1170px;
@@ -139,21 +155,8 @@ body {
     padding-right: 100px;
 }
 
-.data .description h3 {
-    color: #797d80;
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 14px;
-}
-
 .data .description h3 span {
     color: #6c6c6b;
-    font-weight: 700;
-}
-
-.data .description h4 {
-    color: #000;
-    font-size: 40px;
     font-weight: 700;
 }
 
@@ -252,7 +255,6 @@ body {
     justify-content: center;
     align-items: center;
     width: 50%;
-    /* height: 400px; */
     position: relative;
 }
 
@@ -299,22 +301,6 @@ body {
     padding-left: 80px;
 }
 
-.youtube .description h3 {
-    color: #797d80;
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 500;
-    padding-top: 25px;
-}
-
-.youtube .description h4 {
-    padding-top: 10px;
-    font-size: 40px;
-    font-weight: 700;
-    color: #000;
-    text-transform: capitalize;
-}
-
 .youtube .description h4 span {
     color: #20ad96;
     font-weight: 400;
@@ -324,4 +310,96 @@ body {
     color: #797d80;
     line-height: 1.7;
     padding: 10px 0;
+}
+
+/* Section online */
+.online {
+    text-align: center;
+}
+
+.online h4 span {
+    color: #20ad96;
+    font-weight: 400;
+}
+
+.online .offers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.online .offers .offer {
+    flex-basis: calc(100% / 3);
+}
+
+.online .offers .offer img {
+    width: 280px;
+}
+
+.online .offers .offer h5 {
+    color: #20ad96;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.online .offers .offer h5 span {
+    font-size: 20px;
+}
+
+.online .offers .offer h6 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.online .offers .offer h5,
+.online .offers .offer h6 {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.online .offers .offer .info span {
+    font-size: 15px;
+    color: #8c89a2;
+    padding-right: 30px;
+}
+
+.online .offers .offer .info i {
+    font-size: 14px;
+    padding-right: 5px;
+    color: #8c89a2;
+}
+
+.online .circle {
+    text-align: center;
+}
+
+.online .circle i:first-child {
+    font-size: 22px;
+    color: #000;
+    font-size: 12px;
+}
+
+.online .circle i {
+    font-size: 15px;
+    color: #8c89a2;
+    font-size: 8px;
+    padding: 0 8px;
+}
+
+.online .circle p {
+    color: #797d80;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7;
+    padding-top: 50px;
+}
+
+.online .circle a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
 }
