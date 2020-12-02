@@ -211,8 +211,8 @@ h3 {
 .data .image img:nth-child(4) {
     width: 90px;
     position: absolute;
-    top: 88%;
-    left: 90%;
+    top: 80%;
+    left: 95%;
     z-index: 2;
 }
 
@@ -361,6 +361,11 @@ h3 {
     padding-right: 30px;
 }
 
+.online .offers .offer:hover h6 {
+    color: #20ad96;
+    cursor: pointer;
+}
+
 .online .offers .offer .info span {
     font-size: 15px;
     color: #8c89a2;
@@ -405,6 +410,115 @@ h3 {
     color: #000;
     font-size: 18px;
     font-weight: 700;
+}
+
+/* Section testimonials */
+.testimonials {
+    position: relative;
+    margin-top: 300px;
+    display: flex;
+}
+
+.testimonials .over-section {
+    position: absolute;
+    top: -100px;
+    right: 0;
+    opacity: .2;
+}
+
+.testimonials .over-section h6 {
+    font-size: 16px;
+}
+
+.testimonials .over-section p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.testimonials .description span {
+    text-transform: uppercase;
+    color: #797d80;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.testimonials .description h4 {
+    text-transform: capitalize;
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.testimonials .description h4 span {
+    color: #20ad96;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.testimonials .description p {
+    color: #797d80;
+    line-height: 1.7;
+    padding: 10px 0;
+}
+
+.testimonials .description a {
+    display: block;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 25px;
+}
+
+.testimonials .image h6 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.testimonials .image p {
+    font-size: 16px;
+    color: #797d80;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+.testimonials .image img {
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 30px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.testimonials .image .contact {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.testimonials .image .contact h6 {
+    text-transform: uppercase;
+}
+
+.testimonials .image .contact span {
+    font-size: 14px;
+    color: #797d80;
+}
+
+.testimonials .image .faded {
+    margin-top: 30px;
+    opacity: .4;
+    margin-left: 90px;
+    box-shadow: -10px 40px 8px -10px #797d805c inset;
+}
+
+.testimonials .image .faded img {
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 5px;
+    vertical-align: middle;
+    margin-right: 20px;
 }
 
 /* Footer */
