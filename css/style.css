@@ -103,6 +103,10 @@ h3 {
     color: #3f3a64;
 }
 
+.main-header ul.main-menu li a:hover {
+    color: #20ad96;
+}
+
 /* Header logo */
 .main-header .logo img {
     width: 180px;
@@ -111,6 +115,11 @@ h3 {
 /* Header Search */
 .main-header .search i {
     margin: 0 10px;
+    cursor: pointer;
+}
+
+.main-header .search i:hover {
+    color: #20ad96;
 }
 
 .main-header .search i:last-child {
@@ -652,6 +661,57 @@ h3 {
 
 .blogs .blogger .blog span {
     padding-right: 30px;
+}
+
+/* Section subscribe */
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subscribe h4 span {
+ color: #20ad96;
+}
+
+.subscribe p {
+    font-size: 16px;
+    color: #797d80;
+    padding-top: 15px;
+    line-height: 1.7;
+    font-weight: 500;
+    text-align: center;
+}
+
+.subscribe .newsletters {
+    width: 70%;
+}
+
+.subscribe .newsletters input {
+    padding: 12px 25px;
+    width: 80%;
+    border: none;
+    color: #797d80;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.subscribe .newsletters button {
+    padding: 12px 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    background-color: #20ad96;
+    color: #fff;
+    font-weight: 700;
+    transition: background 2s, color 2s;
+    cursor: pointer;
+}
+
+.subscribe .newsletters button:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 /* Footer */
