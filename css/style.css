@@ -653,6 +653,11 @@ h3 {
     padding-bottom: 20px;
 }
 
+.blogs .blogger .blog h6:hover {
+    color: #20ad96;
+    cursor: pointer;
+}
+
 .blogs .blogger .blog span,
 .blogs .blogger .blog i {
     color: #797d80;
