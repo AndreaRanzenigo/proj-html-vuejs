@@ -134,46 +134,18 @@
                         <span>courses</span>
                     </h4>
                     <div class="offers mt-50">
-                        <div class="offer">
-                            <img src="./img/course-02.jpg" alt="course">
+                        <div class="offer" v-for="offer in online">
+                            <img :src="`./img/${offer.image}`" alt="course">
                             <h5>
-                                $40.
-                                <span>00</span>
+                                {{ offer.price }}
+                                <span>{{ offer.cent }}</span>
                             </h5>
-                            <h6>Learning to Write as a Professional Author</h6>
+                            <h6>{{ offer.title }}</h6>
                             <div class="info">
                                 <i class="far fa-file-alt"></i>
-                                <span>20 Lessons</span>
+                                <span>{{ offer.lessons }}</span>
                                 <i class="far fa-user"></i>
-                                <span>50 Students</span>
-                            </div>
-                        </div>
-                        <div class="offer">
-                            <img src="./img/stock-full-hd-03.jpg" alt="stock-full-hd-03">
-                            <h5>
-                                $0.
-                                <span>00</span>
-                            </h5>
-                            <h6>Customer-centric Info-Tech Strategies</h6>
-                            <div class="info">
-                                <i class="far fa-file-alt"></i>
-                                <span>24 Lessons</span>
-                                <i class="far fa-user"></i>
-                                <span>769 Students</span>
-                            </div>
-                        </div>
-                        <div class="offer">
-                            <img src="./img/stock-full-hd-04.jpg" alt="stock-full-hd-04">
-                            <h5>
-                                $19.
-                                <span>00</span>
-                            </h5>
-                            <h6>Open Programming Courses for Everyone: Python</h6>
-                            <div class="info">
-                                <i class="far fa-file-alt"></i>
-                                <span>17 Lessons</span>
-                                <i class="far fa-user"></i>
-                                <span>62 Students</span>
+                                <span>{{ offer.students }}</span>
                             </div>
                         </div>
                     </div>
